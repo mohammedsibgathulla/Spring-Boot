@@ -24,4 +24,7 @@
 - Spring Boot application uses the application.properties by default.
 - The command to set the spring active profile is java -jar demo-0.0.1-SNAPSHOT.jar --spring.profiles.active=dev
 
+7. Spring Boot Active Profile For application.yml
+- We can keep the Spring active profile properties in the single application.yml file.
+- The command to set the spring active profile is java -jar demo-0.0.1-SNAPSHOT.jar --spring.profiles.active=dev
 
