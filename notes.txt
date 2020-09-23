@@ -16,3 +16,6 @@
 - -Dspring.config.location = C:\application.properties
 - java -jar -Dspring.config.location = C:\application.properties demo-0.0.1-SNAPSHOT.jar --server.port=9090
 
+5. Use of @Value Annotation
+- The @Value annotation is used to read the environment or application property value in Java code.
+
