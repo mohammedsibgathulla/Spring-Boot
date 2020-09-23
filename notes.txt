@@ -9,3 +9,10 @@
 
 3. Spring Boot Application Properties
 - Spring Boot supports both formats .properties and .yaml.
+
+4. Externalized Properties
+- Instead of keeping the properties file under classpath, we can keep the properties in different location or path.
+- While running the JAR file, we can specify the properties file path. You can use the following command to specify the location of properties file while running the JAR file
+- -Dspring.config.location = C:\application.properties
+- java -jar -Dspring.config.location = C:\application.properties demo-0.0.1-SNAPSHOT.jar --server.port=9090
+
