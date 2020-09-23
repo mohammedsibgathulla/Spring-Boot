@@ -1,3 +1,8 @@
 1. Spring Boot Runners
 - Application Runner and Command Line Runner interfaces lets you to execute the code after the Spring Boot application is started. You can use these interfaces to perform any actions immediately after the application has started.
 - The difference between CommandLineRunner and ApplicationRunner is that the run() method of CommandLineRunner accepts array of String as an argument and run() method of ApplicationRunner accepts spring ApplicationArguments as an argument.
+
+2. Command Line Properties
+- Spring Boot application converts the command line properties into Spring Boot Environment properties.
+- Command line properties take precedence over the other property sources.
+- java -jar demo-0.0.1-SNAPSHOT.jar --server.port=9090
