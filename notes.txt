@@ -18,4 +18,10 @@
 
 5. Use of @Value Annotation
 - The @Value annotation is used to read the environment or application property value in Java code.
+- To resolve the placeholder issue, we can set the default value for the property @Value("${property_key_name:default_value}")
+
+6. Spring Boot Active Profile For application.properties
+- Spring Boot application uses the application.properties by default.
+- The command to set the spring active profile is java -jar demo-0.0.1-SNAPSHOT.jar --spring.profiles.active=dev
+
 
