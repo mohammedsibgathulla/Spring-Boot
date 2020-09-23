@@ -6,3 +6,6 @@
 - Spring Boot application converts the command line properties into Spring Boot Environment properties.
 - Command line properties take precedence over the other property sources.
 - java -jar demo-0.0.1-SNAPSHOT.jar --server.port=9090
+
+3. Spring Boot Application Properties
+- Spring Boot supports both formats .properties and .yaml.
