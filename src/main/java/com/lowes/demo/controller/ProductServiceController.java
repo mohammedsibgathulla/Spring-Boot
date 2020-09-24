@@ -1,5 +1,6 @@
 package com.lowes.demo.controller;
 
+import com.lowes.demo.exception.ProductNotFoundException;
 import com.lowes.demo.model.Product;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -30,6 +31,7 @@ public class ProductServiceController {
 
     @RequestMapping(value = "/products/{id}", method = RequestMethod.PUT)
     public ResponseEntity<Object> updateProduct(@PathVariable("id") String id, @RequestBody Product product) {
+        if(!productRepo.containsKey(id))throw new ProductNotFoundException();
         productRepo.remove(id);
         product.setId(id);
         productRepo.put(id, product);

@@ -45,6 +45,11 @@
 - ResponseEntity is a real deal. It represents the entire HTTP response. Good thing about it is that you can control anything that goes into it. You can specify status code, headers, and body. It comes with several constructors to carry the information you want to sent in HTTP Response.
 - @PathVariable This annotation indicates that a method parameter should be bound to a URI template variable [the one in ‘{}’].
 - MediaType : With @RequestMapping annotation, you can additionally, specify the MediaType to be produced or consumed (using produces or consumes attributes) by that particular controller method, to further narrow down the mapping.
-- 
+
+10. Spring Boot Exceptional Handling
+- The @ControllerAdvice is an annotation, to handle the exceptions globally.
+- The @ExceptionHandler is an annotation used to handle the specific exceptions and sending the custom responses to the client.
+
+
 
 
