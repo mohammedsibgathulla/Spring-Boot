@@ -28,3 +28,14 @@
 - We can keep the Spring active profile properties in the single application.yml file.
 - The command to set the spring active profile is java -jar demo-0.0.1-SNAPSHOT.jar --spring.profiles.active=dev
 
+8. Spring Boot Logging
+- Spring Boot uses Apache Commons logging for all internal logging.
+- Spring Boot’s default configurations provides a support for the use of Java Util Logging, Log4j2, and Logback.
+- By default, “INFO”, “ERROR” and “WARN” log messages will print in the log file.
+- For Debug level log : java –jar demo.jar --debug
+- If you want to print the logs in a file, you need to set the property logging.file or logging.path in the application.properties file.
+- logging.path = /var/tmp/ -  Note that the log file name is spring.log by default.
+- logging.file = /var/tmp/mylog.log
+- You can define Root logger in the application.properties file as - logging.level.root = WARN
+
+
