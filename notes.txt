@@ -59,6 +59,10 @@
 - postHandle() method − This is used to perform operations before sending the response to the client.
 - afterCompletion() method − This is used to perform operations after completing the request and response.
 
+12. Spring Boot Servlet Filter
+- A filter is an object used to intercept the HTTP requests and responses of your application
+- Before sending the request to the controller
+- Before sending the response to the client
 
 
 
