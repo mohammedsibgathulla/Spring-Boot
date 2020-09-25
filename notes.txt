@@ -68,6 +68,8 @@
 - Rest Template is used to create applications that consume RESTful Web Services.
 - You can use the exchange() method to consume the web services for all HTTP methods. 
 
+14. Spring Boot File Handling
+- Refer the code.
 
 
 
