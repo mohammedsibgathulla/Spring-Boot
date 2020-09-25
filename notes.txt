@@ -64,5 +64,10 @@
 - Before sending the request to the controller
 - Before sending the response to the client
 
+13. Spring Boot RestTemplate
+- Rest Template is used to create applications that consume RESTful Web Services.
+- You can use the exchange() method to consume the web services for all HTTP methods. 
+
+
 
 
