@@ -74,5 +74,8 @@
 15. Spring Boot Service Components
 - Refer the code.
 
+16. Spring Boot Thymeleaf
+- Thymeleaf is a Java-based library used to create a web application. It provides a good support for serving a XHTML/HTML5 in web applications. 
+
 
 
