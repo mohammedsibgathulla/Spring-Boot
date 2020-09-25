@@ -10,7 +10,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 @RestController
-public class ProductServiceController {
+public class ProductController {
     private static Map<String, Product> productRepo = new HashMap<>();
     static {
         Product honey = new Product();
